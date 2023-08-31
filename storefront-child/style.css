@@ -1,0 +1,78 @@
+/*
+Theme Name: Storefront Child
+Theme URI: http://example.com/my-child-theme
+Description: This is a child theme of the Storefront theme.
+Author: Serhii Odokiienko
+Author URI: http://example.com
+Template: storefront
+Version: 1.0.0
+*/
+
+/* Підключення стилів батьківської теми */
+@import url('../storefront/style.css');
+
+/* Ваші стилі тут */
+
+.site-header {
+	background-color: #fff;
+	border-bottom: 1px solid rgb(16 5 5 / 77%);
+}
+
+.main-navigation ul li a:hover {
+	color: #bf6161;
+}
+
+.hero-wrap.hero-bread {
+	padding: 7em 0;
+}
+
+.container {
+	max-width: 1140px;
+}
+
+.ftco-animate.text-center {
+	text-align: center;
+}
+
+.hero-wrap .slider-text .bread {
+	font-weight: 100;
+	color: #000000;
+	font-size: 40px;
+	font-family: "Lato", Arial, sans-serif;
+	letter-spacing: 3px;
+}
+
+.hero-wrap .slider-text .breadcrumbs {
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+	z-index: 99;
+}
+
+.hero-wrap .slider-text .breadcrumbs span {
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.hero-wrap, .img, .blog-img, .user-img {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.hero-wrap {
+	width: 100%;
+	position: relative;
+}
+
+.hero-wrap .slider-text .breadcrumbs {
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+	z-index: 99;
+}
+
+.hero-wrap .slider-text .breadcrumbs .woocommerce-breadcrumb a {
+	text-decoration: none;
+}
